@@ -1,27 +1,23 @@
-#root {
-  max-width: 1280px;
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  text-align: center;
+}
+
+nav ul {
   display: flex;
-  flex-direction: column;
-  
-}
-/* -------------- */
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;  
-  background-color: beige;
+  justify-content: flex-start;
+  list-style: none;
 }
 
-nav {  
-  font-size: 1.5em;  
+li {
+  margin: 10px;
 }
 
-ul {
-  display: flex;  
-  gap: 2.5rem;
-  list-style: none;  
+.container {
+  background-color: blue;
+  padding: 20px;
 }
-
+h1 {
+  color: white;
+}
